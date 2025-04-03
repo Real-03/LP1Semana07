@@ -26,10 +26,10 @@ namespace ColorSpheres
 
     public class Color
     {
-        private int Red;
-        private int Green;
-        private int Blue;
-        private int Alpha;
+        private readonly int Red;
+        private readonly int Green;
+        private readonly int Blue;
+        private readonly int Alpha;
 
         public Color(int red, int green, int blue)
         {
@@ -104,7 +104,7 @@ namespace ColorSpheres
 
     public class Sphere
     {
-        private Color Color;
+        private readonly Color Color;
         private int Raio;
 
         private int TimesThrow;
