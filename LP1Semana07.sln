@@ -1,8 +1,12 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorSpheres", "ColorSpheres\ColorSpheres.csproj", "{DCBEB561-7338-2F96-122B-589F71086C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterColorSpheres", "BetterColorSpheres\BetterColorSpheres.csproj", "{CDD62998-F9FA-42EB-8B5F-B94A0C6115E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerStats", "PlayerStats\PlayerStats.csproj", "{90ED8B16-7458-4418-95D0-0C999933C2D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,6 +18,14 @@ Global
 		{DCBEB561-7338-2F96-122B-589F71086C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCBEB561-7338-2F96-122B-589F71086C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCBEB561-7338-2F96-122B-589F71086C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD62998-F9FA-42EB-8B5F-B94A0C6115E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD62998-F9FA-42EB-8B5F-B94A0C6115E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD62998-F9FA-42EB-8B5F-B94A0C6115E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD62998-F9FA-42EB-8B5F-B94A0C6115E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90ED8B16-7458-4418-95D0-0C999933C2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90ED8B16-7458-4418-95D0-0C999933C2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90ED8B16-7458-4418-95D0-0C999933C2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90ED8B16-7458-4418-95D0-0C999933C2D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
