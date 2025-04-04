@@ -4,28 +4,34 @@
 
 ```mermaid
 classDiagram
+    class Program {
+        + Main(args: string[]) : void
+    }
+
     class Color {
-        +int Red { get; }
-        +int Green { get; }
-        +int Blue { get; }
-        +int Alpha { get; }
-        +int Grey { get; }
-        -int Clamp(int value)
-        +Color(int red, int green, int blue, int alpha)
-        +Color(int red, int green, int blue)
+        - Red : int
+        - Green : int
+        - Blue : int
+        - Alpha : int
+        + Color(red: int, green: int, blue: int)
+        + Color(red: int, green: int, blue: int, alpha: int)
+        + GetRed() : int
+        + GetGreen() : int
+        + GetBlue() : int
+        + GetAlpha() : int
+        + GetGray() : int
     }
 
     class Sphere {
-        +Color Color { get; }
-        +double Radius { get; private set; }
-        +int TimesThrown { get; private set; }
-        +Sphere(Color color, double radius)
-        +void Pop()
-        +void Throw()
-    }
-
-    class Program {
-        +static void Main()
+        - Color : Color
+        - Raio : int
+        - TimesThrown : int
+        + Sphere(color: Color, raio: int)
+        + Pop() : void
+        + Throw() : void
+        + GetTimesThrown() : int
+        + GetColor() : Color
     }
 
     Sphere --> Color
+```
